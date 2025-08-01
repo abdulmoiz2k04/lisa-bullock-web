@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Journey | Lisa Bullock</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="preloader"></div>
+    <header class="header is-page">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                Lisa Bullock
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="listings.html">Explore Properties</a></li>
+                    <li><a href="value.html">Chart Your Home's Value</a></li>
+                    <li><a href="about.html">Your Navigator</a></li>
+                    <li><a href="contact.html">Plan Your Journey</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-nav-toggle" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+    <main class="page-main">
+        <div class="page-header">
+            <div class="container anim-reveal">
+                <h1 class="page-title">Plan Your Journey</h1>
+                <p class="page-subtitle">The path to your next home begins with a conversation. Let's connect.</p>
+            </div>
+        </div>
+        <section class="form-section">
+            <div class="container narrow-container anim-reveal">
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">How can I help you navigate your move?</label>
+                        <textarea id="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="index.html" class="logo">Lisa Bullock</a>
+                <p>Your Real Estate Navigator</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="listings.html">Properties</a></li>
+                    <li><a href="value.html">Home Value</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p><a href="mailto:lisa@example.com">lisa@example.com</a></p>
+                <p><a href="tel:301-555-1234">(301) 555-1234</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Lisa Bullock Real Estate.</p>
+        </div>
+    </footer>
+
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
