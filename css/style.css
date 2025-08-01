@@ -136,6 +136,14 @@ h3 { font-size: clamp(1.1rem, 3vw, 1.25rem); }
 }
 
 @media (max-width: 768px) {
+    .hero-content {
+        margin-right:20px;
+        margin-left:20px;
+    }
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+    }
     .main-nav {
         position: fixed;
         top: 0;
